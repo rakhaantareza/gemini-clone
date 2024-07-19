@@ -1,8 +1,39 @@
-# React + Vite
+<div align="center">
+  <img alt="Logo" src="src/assets/gemini-icon.svg" width="100" />
+</div>
+<h1 align="center">
+  Gemini Clone
+</h1>
+<p align="center">
+  Gemini Clone is a React.js web application that replicates the search interface of <a href="https://gemini.google.com/" target="_blank">Google Gemini</a>. This project includes API integration with Google Gemini's language model, allowing users to experience a similar search experience.
+</p>
+<br />
+<a href="https://gemini-clone-with-react.vercel.app/" target="_blank">
+  <img src="src/assets/project-banner.png" alt="Project Banner">
+</a>
+<br /><br />
+<div align="center">
+  Live Demo: https://gemini-clone-with-react.vercel.app/
+</div>
+<br />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🛠 Installation & Set Up
 
-Currently, two official plugins are available:
+1. Cloning the Repository
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+   ```sh
+   git clone https://github.com/rakhaantareza/gemini-clone.git
+   cd gemini-clone
+   ```
+
+2. Install the project dependencies using npm:
+
+    ```bash
+    npm install
+    ```
+
+3. Start the development server
+
+   ```sh
+   npm run dev
+   ```
