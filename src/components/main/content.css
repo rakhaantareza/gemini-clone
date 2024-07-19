@@ -101,7 +101,7 @@
 
 .search-box input {
   flex: 1;
-  /* background: transparent; */
+  background: transparent;
   border: none;
   outline: none;
   padding: 8px;
@@ -225,12 +225,12 @@
 @media (max-width:360px) {
   .content-bottom input {
     flex: none;
-    width: 180px;
+    width: 190px;
   }
 }
 
-@media (max-width:310px) {
+@media (max-width:320px) {
   .content-bottom input {
-    width: 150px;
+    width: 160px;
   }
 }
