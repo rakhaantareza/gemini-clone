@@ -19,21 +19,18 @@
 
 ## 🛠 Installation & Set Up
 
-1. Cloning the Repository
+**Installation**
 
-   ```sh
-   git clone https://github.com/rakhaantareza/gemini-clone.git
-   cd gemini-clone
-   ```
+Install the project dependencies using npm:
 
-2. Install the project dependencies using npm:
+```bash
+npm install
+```
 
-    ```bash
-    npm install
-    ```
+**Running the Project**
 
-3. Start the development server
+```bash
+npm run dev
+```
 
-   ```sh
-   npm run dev
-   ```
+Open [http://localhost:5173](http://localhost:5173) to view the project.
