@@ -5,7 +5,7 @@ import { Context } from '../../context/Context'
 
 const Content = () => {
 
-  const {onSent,recentPrompt,showResult,loading,resultData,setInput,input} = useContext(Context)
+  const { onSent, recentPrompt, showResult, loading, resultData, setInput, input, handleEnter } = useContext(Context)
 
   return (
     <div className="content">
@@ -61,7 +61,7 @@ const Content = () => {
 
         <div className='content-bottom'>
           <div className='search-box'>
-            <input onChange={(e) => setInput(e.target.value)} value={input} type='text' placeholder='Enter a prompt here' />
+            <input onKeyDown={handleEnter} onChange={(e) => setInput(e.target.value)} value={input} type='text' placeholder='Enter a prompt here' />
             <div>
               <img src={assets.gallery_icon} />
               <img src={assets.mic_icon} />

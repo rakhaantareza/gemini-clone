@@ -23,6 +23,10 @@ const ContextProvider = (props) => {
         setShowResult(false);
     }
 
+    const handleEnter = async (e) => {
+        if(e.key == 'Enter') await onSent();
+    }
+
     const onSent = async (prompt) => {
 
 
@@ -72,7 +76,8 @@ const ContextProvider = (props) => {
         resultData,
         input,
         setInput,
-        newChat
+        newChat,
+        handleEnter
     }
     return (
         <Context.Provider value={contextValue}>
