@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Logo" src="src/assets/gemini-icon.svg" width="100" />
+  <img alt="Logo" src="src/assets/gemini-icon.svg" width="50" />
 </div>
 <h1 align="center">
   Gemini Clone
